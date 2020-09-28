@@ -1,3 +1,4 @@
 Compile with `clang -DPACKAGE=\"test\" -DVERSION=\"0.3.2\" writevt.c miscutils.c -o writevt`
+(needs root for execution or set capability with `setcap 'cap_sys_admin+ep' ./writevt` as root)
 
 Sourcecode "forked" from https://sourceforge.net/projects/lct/files/console-tools-devel/0.3.2/
